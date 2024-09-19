@@ -20,8 +20,9 @@ div {
     display: flex;
     flex-direction: column; /* Organiza os itens em coluna */
     justify-content: center; /* Centraliza o conteúdo verticalmente */
-    padding: 20px; /* Adiciona um pouco de espaço ao redor */
+    padding: 70px 20px 20px; /* Aumenta o padding superior para 50px */
 }
+
 
 button i {
     margin-right: 5px; /* Espaço entre o ícone e o texto */
@@ -54,9 +55,12 @@ button, .botaoinicio {
 a {
     color: #27C394; /* Cor verde para os links */
     text-decoration: none; /* Remove o sublinhado dos links */
+    transition: color 0.3s, transform 0.3s; /* Transição suave */
 }
 
 a:hover {
+    color: #39E1A1; /* Cor mais clara ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho do link */
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
