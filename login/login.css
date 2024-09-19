@@ -34,7 +34,6 @@ button i {
     font-size: 5vw; /* Tamanho responsivo */
     font-weight: 100; /* Define um peso de fonte mais leve */
 }
-
 button, .botaoinicio {
     display: block; /* Permite que o botão ocupe a largura total */
     width: 250px; /* Largura padrão para os botões */
@@ -46,6 +45,11 @@ button, .botaoinicio {
     cursor: pointer; /* Muda o cursor ao passar sobre o botão */
     font-size: 16px; /* Tamanho da fonte */
     border-radius: 2vw; /* Arredonda os cantos */
+    transition: all 0.2s ease-in-out; /* Transição suave */
+}
+
+button:hover, .botaoinicio:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão ao passar o mouse */
 }
 
 .fa-brands {
