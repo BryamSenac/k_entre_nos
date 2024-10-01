@@ -6,31 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8f497cd43a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./css/login.css">
     <title>Login do Site</title>
+    <script type="module" src="./../controller/index.js" defer></script>
 </head>
 
 <body>
-    <div id="logo_img">
-        <img src="logo.svg">
-        <h1>K ENTRE NÓS</h1>
-    </div>
-    <div>
-        <button class="botaoinicio">
-            <i class="fa-brands fa-google" ></i>
-            Entre com o Google
-        </button>
-        <button class="botaoinicio">
-            <i class="fa-brands fa-apple"></i>
-            Entre com a Apple
-        </button>
-        <button class="botaoinicio">
-            <i class="fa-brands fa-facebook"></i>
-            Entre com o Facebook
-        </button>
-        <p>Ao inscrever-se, você concorda com os <a href="">Termos de Serviço</a> e a <a href="">Política de
-                Privacidade</a>, incluindo o <a href="">Uso de Cookies</a>.</p>
-    </div>
+    <section>
+        <div id="sla">
+            <div id="logo_img">
+                <img src="logo.svg">
+                <h1>K ENTRE NÓS</h1>
+            </div>
+            <div id="botoaos">
+                <button class="botaoinicio" id="google" onclick="puxarLogin(0)">
+                    <i class="fa-brands fa-google"></i>
+                    Entre com o Google
+                </button>
+                <button class="botaoinicio" id="apple" onclick="puxarLogin(1)">
+                    <i class="fa-brands fa-apple"></i>
+                    Entre com a Apple
+                </button>
+                <button class="botaoinicio" id="facebook" onclick="puxarLogin(2)">
+                    <i class="fa-brands fa-facebook"></i>
+                    Entre com o Facebook
+                </button>
+                <p>Ao inscrever-se, você concorda com os <a href="">Termos de Serviço</a> e a <a href="">Política de
+                        Privacidade</a>, incluindo o <a href="">Uso de Cookies</a>.</p>
+            </div>
+        </div>
+    </section>
+        <div class="banners" id="login_google"></div>
+        <div class="banners" id="login_apple"></div>
+        <div class="banners" id="login_facebook"></div>
+        <button id="fechar_login" onclick="puxarLogin(3)">Fechar</button>
 </body>
 
 </html>
