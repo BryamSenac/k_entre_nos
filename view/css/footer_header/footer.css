@@ -43,10 +43,22 @@ footer {
 }
 
 #arroba_notificacao {
+    position: absolute;
+    top: -0.7vh;
+    left: 12vw;
     color: #657786;
 }
 
+#nome_notificacao{
+    position: absolute;
+    top: -0.7vh;
+    left: 3vw;
+}
+
 #tempo_notificacao {
+    position: absolute;
+    top: -0.7vh;
+    left: 20vw;
     color: #657786;
 }
 
@@ -59,7 +71,7 @@ footer {
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 10vh;
+    top: 5.4vh;
     left: 5vw;
     justify-content: space-between;
     width: 20vw;
