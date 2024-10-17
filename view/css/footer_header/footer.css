@@ -11,6 +11,7 @@ footer {
     width: 28vw;
     height: 25vh;
     margin: 1vw;
+    padding: 1vw;
     background-color: #AAB8C2;
     border-radius: 1vw;
     display: flex;
@@ -25,9 +26,6 @@ footer {
     height: 6vh;
     background-color: #F5F8FA;
     border-radius: 0.5vw;
-    position: absolute;
-    left: 2vw;
-    top: 4vh;
 }
 
 #foto_notificacao {
@@ -40,26 +38,6 @@ footer {
 
 .texto_noticacao {
     margin: 0vh 0.4vw;
-}
-
-#arroba_notificacao {
-    position: absolute;
-    top: -0.7vh;
-    left: 12vw;
-    color: #657786;
-}
-
-#nome_notificacao{
-    position: absolute;
-    top: -0.7vh;
-    left: 3vw;
-}
-
-#tempo_notificacao {
-    position: absolute;
-    top: -0.7vh;
-    left: 20vw;
-    color: #657786;
 }
 
 #ver_mais_notificacao {
