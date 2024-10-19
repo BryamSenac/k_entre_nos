@@ -1,62 +1,107 @@
 footer {
     width: 30vw;
     height: 100vh;
-    background-color: #F5F8FA;
+    border-left: solid 0.2vw black;
+    background-color: rgb(245, 248, 250);
     position: absolute;
     right: 0vw;
     top: 0vh;
 }
 
-#box_notificacao {
+#box_notificacao{
     width: 28vw;
-    height: 25vh;
-    margin: 1vw;
-    padding: 1vw;
-    background-color: #AAB8C2;
+    height: 27vh;
+    margin: 1vh 1vw;
+
     border-radius: 1vw;
+
     display: flex;
     flex-direction: column;
-
-}
-
-#linha_pessoa_notificacao {
-    display: flex;
-    flex-direction: row;
-    width: 26vw;
-    height: 6vh;
-    background-color: #F5F8FA;
-    border-radius: 0.5vw;
-}
-
-#foto_notificacao {
-    width: 2vw;
-    height: 4vh;
-    border-radius: 5vw;
-    background-color: black;
-    margin: 1vh 0.3vw;
-}
-
-.texto_noticacao {
-    margin: 0vh 0.4vw;
-}
-
-#ver_mais_notificacao {
-    position: absolute;
-    left: 13vw;
-    top: 21vh;
-}
-#linha_mensagem_notificacao{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 5.4vh;
-    left: 5vw;
     justify-content: space-between;
-    width: 20vw;
+
+    background-color: blue;
 }
-#botoes_notificacao{
+
+#botao_ntf{
+    width: 26vw;
+    height: 7vh;
+    margin: 1vh 1vw;
+
+    border-radius: 1vw;
+
+    background-color: red;
+}
+
+#contato_ntf{
     display: flex;
-    flex-direction: row;
+
     align-items: center;
-    justify-content: right;
+    text-align: center;
+}
+
+#img_ctt_ntf{
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+#inf_ctt_ntf{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn_ctt_ntf{
+
+    margin-left: 1vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#ver_mais{
+    width: 8vw;
+    height: 4vh;
+
+    text-align: center;
+
+    margin: 1vh 10vw;
+
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid 0.2vw black;
+}
+
+#chat{
+    width: 60vw;
+    height: 68vh;
+    
+    display: flex;
+
+    position: absolute;
+    right: -30vw; 
+    /* chat fechado fica em -30 e aberto em 0 */
+}
+
+#box_chat{
+    width: 28vw;
+    height: 67vh;
+    margin: 1vh 1vw 1vh;
+
+    border-radius: 1vw;
+
+    background-color: blue;
+}
+
+#box_chat_aberto{
+    width: 28vw;
+    height: 67vh;
+    margin: 1vh 1vw;
+
+    border-radius: 1vw;
+
+    background-color: blue;
 }
