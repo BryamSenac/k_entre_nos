@@ -1,8 +1,9 @@
 header{
     width: 3vw;
     height: 100vh;
-    background-color: brown;
+    background-color: rgb(47, 255, 193);
     position: absolute;
     left: 0vw;
     top: 0vh;
+   
 }
