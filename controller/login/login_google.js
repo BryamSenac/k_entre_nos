@@ -3,12 +3,6 @@ let loginApple = document.getElementById('login_apple')
 let loginFacebook = document.getElementById('login_facebook')
 let fecharLogin = document.getElementById('fechar_login')
 
-let dados = [
-    { email: 'guilherme@gmail', senha: '6767' },
-    { email: 'fulano@gmail', senha: '4321' },
-    { email: 'tal@gmail', senha: '1234' },
-];
-
 export function puxarLogin(numerologin) {
     switch (numerologin) {
         case 0:
