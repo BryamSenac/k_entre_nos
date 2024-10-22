@@ -1,31 +1,31 @@
-// Vetor para armazenar os comentários
+
 let comentarios = [
     "Este é um comentário de exemplo!",
-    "Acho que a solução proposta é ótima!",
+    "Acho que a solução proposta é !"ótima,
     "Alguém mais teve esse problema?",
     "Estou ansioso para ver mais soluções!",
     "Esse tópico é muito interessante!"
 ];
 
-// Função para adicionar um comentário
+
 function postComment() {
     const input = document.getElementById("problemInput");
     const comentarioText = input.value.trim();
     if (comentarioText) {
-        // Adiciona o novo comentário ao vetor
+       
         comentarios.push(comentarioText);
-        input.value = ""; // Limpa o input
-        renderComentario(comentarioText); // Renderiza o novo comentário na tela
+        input.value = ""; 
+        renderComentario(comentarioText); 
     } else {
-        alert("Por favor, digite um comentário."); // Alerta se o campo estiver vazio
+        alert("Por favor, digite um comentário.");
     }
 }
 
-// Função para renderizar um único comentário
+
 function renderComentario(comentario) {
     const postsContainer = document.getElementById("posts");
     
-    // Cria um novo elemento de comentário
+    
     const comentarioElement = document.createElement("div");
     comentarioElement.className = "base_coment";
     comentarioElement.innerHTML = `
@@ -46,16 +46,16 @@ function renderComentario(comentario) {
         </div>
     `;
 
-    // Adiciona o novo comentário ao contêiner de posts
+    
     postsContainer.appendChild(comentarioElement);
 }
 
-// Função para renderizar os comentários de exemplo ao carregar a página
+
 function renderComentarios() {
     comentarios.forEach((comentario) => {
-        renderComentario(comentario); // Renderiza cada comentário existente
+        renderComentario(comentario); 
     });
 }
 
-// Renderiza os comentários de exemplo ao carregar a página
+
 renderComentarios();
