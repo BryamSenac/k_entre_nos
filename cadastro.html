@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./css/cadastro.css">
     <title>Tela de Cadastro</title>
     <script type="module" src="./controller/cadastro/cadastro.js" defer></script> 
 </head>
 <body>
     <section>
-        <div id="logo_img">
-            <img src="logo.svg" alt="Logo">
-            <h1>K ENTRE NÓS</h1>
-        </div>
         <div class="form-container">
             <h2>Cadastro de Usuário</h2>
             <form action="#" method="post" onsubmit="verificarIdade(event)">
@@ -30,6 +27,11 @@
 
                 <button type="submit">Cadastrar</button>
             </form>
+            <button id="voltar" onclick="window.location.href = './login.html'">Voltar</button>
+        </div>
+        <div id="logo_img">
+             <img src="logo.svg" alt="Logo">
+            <h1>K ENTRE NÓS</h1>
         </div>
     </section>
 </body>

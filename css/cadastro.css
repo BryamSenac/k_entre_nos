@@ -1,119 +1,102 @@
 body {
-    padding: 0;
-    margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: #e9ecef; /* Cor de fundo suave */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#ata {
+section {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10vw;
+    background-color: #f4f7f6; /* Cor de fundo da seção */
 }
 
 #logo_img {
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 15vh;
 }
 
-div {
+#logo_img h1 {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 400;
+    color: #333;
+    letter-spacing: 0.05em;
+}
+
+.form-container {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1.9vh 10vw 0.01vh 2vw;
+    padding: 2vh 5vw;
 }
 
-#logo_img h1 {
-    margin-top: 7vh;
+h2 {
+    font-size: 2vw; /* Tamanho menor para o cabeçalho */
     text-align: center;
-    font-size: 5vw;
-    font-weight: 100;
-}
-
-button i {
-    margin-right: 5px;
-}
-
-section {
-    display: flex;
-    height: 100vh;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.form-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3vw;
-    background-color: #f3f3f3;
-    width: 30vw;
-    height: 60vh;
-    border-radius: 8px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); /* Sombra mais forte */
-    margin-right: 5vw;
-}
-
-.form-container h2 {
-    font-size: 2vw;
-    color: #333;
-    margin-bottom: 2vh;
-    text-align: center;
-    transition: color 0.3s ease;
-}
-
-.form-container h2:hover {
-    color: #27C394; /* Muda a cor ao passar o mouse */
-}
-
-form {
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 1.5vh; /* Menos espaçamento abaixo do cabeçalho */
+    font-weight: 400;
+    color: #2c3e50;
 }
 
 label {
-    margin-bottom: 1vh;
-    font-size: 1.2vw;
-    color: #555;
+    font-size: 1vw; /* Tamanho menor da fonte */
+    color: #2c3e50;
+    margin: 1vh 0;
+    display: block;
 }
 
 input {
-    margin-bottom: 2vh;
-    padding: 1vw;
-    font-size: 1.2vw;
-    border: 1px solid #ccc;
-    border-radius: 0.5vw;
-    outline: none;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 29vw; 
+    height: 4vh; /* Altura dos campos */
+    margin: 1vh 0; /* Espaçamento vertical */
+    padding-left: 1vw; /* Espaçamento interno */
+    font-size: 0.9vw;
+    border: 1px solid #C4C4C4; /* Borda normal */
+    border-radius: 0.5vw; /* Bordas arredondadas */
+    background-color: #f9f9f9;
+    transition: all 0.2s ease-in-out;
 }
 
 input:focus {
+    outline: none;
     border-color: #27C394;
-    box-shadow: 0 0 5px rgba(39, 195, 148, 0.5); /* Sombra ao focar */
+    box-shadow: 0 0 6px rgba(39, 195, 148, 0.5);
 }
 
-button {
-    padding: 1.2vh 1.5vw;
-    font-size: 1.2vw;
-    background-color: #27C394;
-    color: #fff;
-    border: none;
-    border-radius: 0.5vw;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+button[type="submit"], button#voltar {
+    width: 30vw; /* Largura total */
+    height: 4.5vh; /* Altura do botão */
+    margin: 1vh 0; /* Espaçamento vertical */
+    background-color: #27C394; /* Cor do botão */
+    color: #fff; /* Cor do texto */
+    border: none; /* Sem bordas */
+    border-radius: 0.5vw; /* Bordas arredondadas */
+    font-size: 1vw; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de pointer */
+    transition: background-color 0.3s, transform 0.3s; /* Transições */
 }
 
-button:hover {
-    background-color: #1f9f7a;
-    transform: translateY(-2px); /* Efeito de elevação ao passar o mouse */
-    box-shadow: 0px 4px 15px rgba(39, 195, 148, 0.3); /* Sombra ao passar o mouse */
+button[type="submit"]:hover {
+    background-color: #1aa379; /* Cor ao passar o mouse */
+    transform: translateY(-2px); /* Animação ao elevar o botão */
 }
 
-button:active {
-    transform: translateY(0); /* Retorna ao normal ao clicar */
+button#voltar {
+    background-color: #C4C4C4; /* Cor do botão voltar */
+    color: #333; /* Cor do texto */
 }
 
+button#voltar:hover {
+    background-color: #b0b0b0; /* Cor ao passar o mouse */
+    transform: translateY(-2px); /* Animação ao elevar o botão */
+}
