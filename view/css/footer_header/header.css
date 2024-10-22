@@ -16,7 +16,7 @@
 
         border-right: solid 0.2vw black;
 
-        background-color: brown;
+        background-color: rgb(245, 248, 250);
 }
 
 #abrir_menu {
@@ -28,7 +28,7 @@
         border-radius: 50%;
 
 
-        background-color: yellow;
+        background-color: white;
 
 }
 
@@ -44,9 +44,9 @@
         display: flex;
         flex-direction: column;
 
-        justify-content: space-between;
+        justify-content: start;
 
-        background-color: blue;
+        background-color: rgb(245, 248, 250);
 }
 
 #menu button{
@@ -58,7 +58,7 @@
         border-radius: 50%;
 
 
-        background-color: yellow;
+        background-color: black;
 }
 
 
@@ -71,7 +71,7 @@
 
         border-right: solid 0.2vw black;
 
-        background-color: orange;
+        background-color: rgb(245, 248, 250);
 }
 
 #fechar_menu {
@@ -86,7 +86,7 @@
         justify-content: space-evenly;
         align-items: center;
 
-        background-color: pink;
+        background-color: white;
 
 }
 
@@ -98,7 +98,7 @@
 
         border-radius: 2vw;
 
-        background-color: cyan;
+        background-color: black;
 }
 
 #menu_completo {
@@ -113,9 +113,9 @@
         display: flex;
         flex-direction: column;
 
-        justify-content: space-between;
+        justify-content: start;
 
-        background-color: green;
+        background-color: rgb(245, 248, 250);
 }
 
 #menu_completo button{
@@ -129,7 +129,7 @@
         display: flex;
         align-items: center;
 
-        background-color: pink;
+        background-color: white;
 }
 
 #menu_completo button i{
@@ -140,5 +140,5 @@
 
         border-radius: 2vw;
 
-        background-color: cyan;
+        background-color: black;
 }
