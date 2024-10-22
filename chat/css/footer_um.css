@@ -1,0 +1,8 @@
+footer {
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(54, 42, 165);
+    position: absolute;
+    right: 0vw;
+    top: 0vh;
+}
