@@ -48,14 +48,14 @@ button i {
 
 .botaoinicio {
     display: block;
-    width: 20vw; /* Largura do botão reduzida */
-    height: 5vh; /* Altura do botão reduzida */
+    width: 22vw;
+    height: 6.5vh;
     margin: 1vw auto;
     text-align: center;
     background-color: #ffffff;
     border: 0.15vw solid #C4C4C4;
     cursor: pointer;
-    font-size: 0.9vw; /* Tamanho da fonte do botão reduzido */
+    font-size: 1vw;
     border-radius: 1vw;
     transition: all 0.3s ease-in-out;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombras mais suaves */
@@ -98,7 +98,7 @@ p {
 
 /* Caixa de login por e-mail */
 #em_sen {
-    width: 20vw; /* Largura da caixa reduzida */
+    width: 22vw;
     margin-top: 2vh;
     display: flex;
     flex-direction: column;
@@ -109,11 +109,11 @@ p {
 
 /* Estilo para os campos de input */
 #email, #senha {
-    width: 18vw; /* Largura dos campos de entrada reduzida */
-    height: 4.5vh; /* Altura dos campos de entrada reduzida */
+    width: 20vw;
+    height: 5vh;
     margin: 1vw 0;
     padding-left: 1vw;
-    font-size: 0.9vw; /* Tamanho da fonte dos campos reduzido */
+    font-size: 1vw;
     border: 0.15vw solid #C4C4C4;
     border-radius: 1vw;
     background-color: #f9f9f9;
