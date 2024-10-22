@@ -1,0 +1,224 @@
+footer {
+    width: 30vw;
+    height: 100vh;
+    border-left: solid 0.2vw black;
+    background-color: rgb(245, 248, 250);
+    position: absolute;
+    right: 0vw;
+    top: 0vh;
+}
+
+#box_notificacao {
+    width: 28vw;
+    height: 27vh;
+    margin: 1vh 1vw;
+
+    border-radius: 1vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: blue;
+}
+
+#botao_ntf {
+    width: 26vw;
+    height: 7vh;
+    margin: 1vh 1vw;
+
+    border-radius: 1vw;
+
+    background-color: red;
+}
+
+#contato_ntf {
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+}
+
+#img_ctt_ntf {
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+#inf_ctt_ntf {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn_ctt_ntf {
+
+    margin-left: 1vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#ver_mais {
+    width: 8vw;
+    height: 4vh;
+
+    text-align: center;
+
+    margin: 1vh 10vw;
+
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid 0.2vw black;
+}
+
+#chat {
+    width: 200vw;
+    height: 68vh;
+
+    display: flex;
+
+    position: absolute;
+    right: -100vw;
+    /* chat fechado fica em -30 e aberto em 0 */
+}
+
+.boxs_chat{
+    margin: 1vh 1vw 1vh 71vw;
+
+    width: 28vw;
+    height: 67vh;
+
+    border-radius: 1vw;
+}
+
+#box_chat {
+    background-color: blue;
+}
+
+#lista_ctt{
+    width: 26vw;
+    height: 61vh;
+
+    border-radius: 1vw;
+
+    margin: 2vh 1vw 2vh;
+    padding-top: 2vh;
+
+    background-color: brown;
+}
+
+#pessoas_ctt{
+    width: 10vw;
+    margin: 0 8vw;
+
+    border-radius: 1vw;
+
+    background-color: yellow;
+
+    text-align: center;
+}
+
+#box_chat_aberto {
+    background-color: blue;
+}
+
+#botao_ctt {
+    width: 24vw;
+    height: 7vh;
+    margin: 1vh 1vw;
+
+    border-radius: 1vw;
+
+    background-color: white;
+}
+
+#contato_ctt {
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+}
+
+#img_ctt {
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+#inf_ctt {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#lista_ctt_aberto{
+    width: 26vw;
+    height: 20vh;
+
+    border-radius: 1vw;
+
+    margin: 2vh 1vw 1vh;
+    padding-top: 2vh;
+
+    background-color: brown;
+}
+
+#chat_ctt_aberto{
+    width: 26vw;
+    height: 38vh;
+
+    border-radius: 1vw;
+
+    margin: 1.5vh 1vw 1.5vh;
+    padding-top: 2vh;
+
+    background-color: brown;
+}
+
+#mensagens{
+    width: 24vw;
+    height: 30vh;
+
+    border-radius: 1vw;
+
+    margin: 1vh 1vw 0.5vh;
+
+    background-color: yellow;
+}
+
+#msg{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+#botao_digitando{
+    width: 20vw;
+    height: 3vh;
+
+    border-radius: 1vw;
+
+    margin: 1vh 0.5vw 0.5vh 1vw;
+
+    background-color: yellow;
+}
+
+#enviar_msg{
+    width: 4vw;
+    height: 3vh;
+
+    border-radius: 1vw;
+
+    margin: 0.5vh 1vw 0.5vh 0.5vw;
+
+    background-color: black;
+    color: white;
+}
