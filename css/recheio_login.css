@@ -88,6 +88,21 @@ a:hover {
     transform: scale(1.3);
 }
 
+#entrar{
+    width: 21vw; 
+    height: 3vh; /* Altura do botão */
+    margin: 1vh auto; /* Centraliza os botões */
+    background-color: #27C394; /* Cor do botão */
+    color: #fff; /* Cor do texto */
+    border: none; /* Sem bordas */
+    border-radius: 1vw; /* Bordas arredondadas */
+    font-size: 1vw; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de pointer */
+    transition: background-color 0.3s, transform 0.3s; /* Transições */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombras mais suaves */
+
+}
+
 p {
     margin-top: 2vh;
     margin-bottom: 2vh;
