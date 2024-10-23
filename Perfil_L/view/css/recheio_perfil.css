@@ -41,7 +41,7 @@ section{
     border: solid 0.3vw white;
     z-index: 12;
     position: absolute;
-    top: 64.5%;
+    top: 29%;
     left: 2%;
 }
 
@@ -90,7 +90,7 @@ section{
     left: 16%;
 }
 
-#Posts{
+ #Posts{
     position: absolute;
     top: 70%;
     left: 15%;
@@ -176,4 +176,4 @@ border: none;
     left: 30%;
     border: none;
     background-color: white;
-}
+} 
