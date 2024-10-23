@@ -1,5 +1,5 @@
 
-import { verificarIdade } from './verificarIdade.js';
+import { verificarIdade } from './cadastro_dados.js';
 
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector('form');
@@ -7,8 +7,3 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-let dadosC = [
-    { nome: 'guilerme', emailC: 'guilherme@gmail', senhaC: '6767', ano:'2000'  },
-    { nome: 'fulano', emailC: 'fulano@gmail', senhaC: '4321', ano:'2000'  },
-    { nome: 'tal', emailC: 'tal@gmail', senhaC: '1234', ano:'2000' },
-];
