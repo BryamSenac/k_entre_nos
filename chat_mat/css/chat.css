@@ -1,7 +1,7 @@
 /*favor não apagar nada 
 ou o bagulho vai de vasco
 */
-
+ 
 #chat {
     background-color: rgb(160, 160, 160);
     height: 100vh;
@@ -11,9 +11,25 @@ ou o bagulho vai de vasco
     left: 4.2vh;
 }
 
+#question {
+    background-color: #E1EBED;
+    height: 5vh; 
+    width: 60vw;
+    border-radius: 9vh;
+    color: rgb(248, 213, 170);
+    position: absolute;
+    top: 12vh;
+    left: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
 #first_coment {
-    background-color: rgb(123, 123, 124);
-    height: 25vh;
+    background-color:#E1EBED;
+    height: 20vh;
     width: 64vw;
     border-radius: 5vh;
     position: absolute;
@@ -22,7 +38,7 @@ ou o bagulho vai de vasco
 }
 
 #name {
-    color: bisque;
+    color: rgb(0, 0, 0);
     height: 10vh;
     width: 40vw;
     position: absolute;
@@ -41,24 +57,8 @@ ou o bagulho vai de vasco
 }
 
 
-#question {
-    background-color: darkgray;
-    height: auto; 
-    width: 60vw;
-    border-radius: 9vh;
-    color: rgb(248, 213, 170);
-    position: absolute;
-    top: 13vh;
-    left: 3vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
 #question label {
-    color: rgb(248, 213, 170);
+    color: white;
     margin-bottom: 5px;
 }
 
@@ -74,15 +74,15 @@ ou o bagulho vai de vasco
 }
 
 #chat{
-    background-color:white;;
+    background-color:white;
 }
 
 #postarSeu {
-    background-color: rgb(47.255, 193);
+    background-color: #27C394;
     height: 6vh;
     width: 7vw;
     border-radius: 2vh;
-    color: rgb(165, 155, 155);
+    color: antiquewhite;
     position: absolute;
     top: 2vh;
     left: 105vh;
@@ -92,7 +92,7 @@ ou o bagulho vai de vasco
 }
 
 .base_coment {
-    background-color:rgb(177, 163, 163);
+    background-color:rgb(255, 255, 255);
     height: 20vh;
     width: 133vh;
     position: absolute;
@@ -116,7 +116,7 @@ ou o bagulho vai de vasco
 }
 
 .name_exemplo {
-    color: white;
+    color: rgb(0, 0, 0);
     height: 10vh;
     width: 50vw;
     position: absolute;
@@ -162,7 +162,7 @@ ou o bagulho vai de vasco
 .config_coment {
     position: absolute;
     top: 3vh;
-    left: 128vh;
+    left:58vw;
     width: 20vw;
     height: 10vh;
     cursor: pointer;  
