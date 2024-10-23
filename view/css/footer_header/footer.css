@@ -8,6 +8,11 @@ footer {
     top: 0vh;
 }
 
+footer button:hover {
+    cursor: pointer;
+    transform: scaleX(1.01);
+}
+
 #box_notificacao {
     width: 28vw;
     height: 27vh;

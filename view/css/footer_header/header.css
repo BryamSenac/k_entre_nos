@@ -8,6 +8,11 @@
         left: 0vw;
 }
 
+header button:hover {
+        cursor: pointer;
+        transform: scale(1.01);
+}
+
 #menu_fechado {
         width: 3vw;
         height: 100vh;
@@ -57,8 +62,12 @@
 
         border-radius: 50%;
 
-
         background-color: black;
+}
+
+#menu button:hover{
+        cursor: pointer;
+        transform: scaleX(1.1);
 }
 
 
@@ -130,6 +139,11 @@
         align-items: center;
 
         background-color: white;
+}
+
+#menu_completo button:hover{
+        cursor: pointer;
+        transform: scaleX(1.1);
 }
 
 #menu_completo button i{
