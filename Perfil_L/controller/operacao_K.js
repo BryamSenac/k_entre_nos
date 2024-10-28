@@ -3,10 +3,10 @@ export function criaPerfil() {
     {
         nome: 'Fulano',
         aroba: 'praticio_star',
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd3WogozB_xRgnwN583BLaXUHy7q9PP3rb0A&s', // URL de exemplo
-        fotoP: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFdPq2T2g20oo4EePsxh1Siabxqn-Tujjpw&s', // URL de exemplo
-        seguidor: '987',
-        seguindo: '123',
+        img: '', // URL de exemplo
+        fotoP: '', // URL de exemplo
+        seguidor: '998',
+        seguindo: '200',
     };
 
     let section = document.getElementById('miolo'); // Obtém a seção pelo ID
