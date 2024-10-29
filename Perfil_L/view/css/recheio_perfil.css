@@ -4,6 +4,8 @@ section{
     position: absolute;
     background-color: rgb(255, 255, 255);
     left: 3%;
+
+    
     
 }
 #btn_back{
@@ -19,6 +21,7 @@ section{
     position: absolute;
     left: 8%;
     top: 0.3%;
+  
 }
 
 
@@ -39,10 +42,11 @@ section{
     border-radius: 50%;
     
     border: solid 0.3vw white;
-    z-index: 12;
+    z-index: 3;
     position: absolute;
     top: 29%;
     left: 2%;
+
 }
 
 
@@ -57,9 +61,8 @@ section{
    
 }
 
-#btn_edit:hover{
-    background-color: rgb(47, 255, 186) ;
-}
+
+
 
 #Nome_exemplo{
     position: absolute;
@@ -178,4 +181,3 @@ border: none;
     background-color: white;
 } 
 
-@media 
