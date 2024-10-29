@@ -50,6 +50,7 @@ header button:hover {
         flex-direction: column;
 
         justify-content: start;
+        align-items: center;
 
         background-color: rgb(245, 248, 250);
 }
@@ -58,11 +59,17 @@ header button:hover {
         width: 2vw;
         height: 2vw;
 
-        margin: 1vh 0.5vw;
+        margin: 1vh 0vw;
+
+        align-items: center;
 
         border-radius: 50%;
 
-        background-color: black;
+        /* background-color: black; */
+}
+
+#menu button i{
+        margin-left: -0.1vw;
 }
 
 #menu button:hover{
@@ -99,6 +106,14 @@ header button:hover {
 
 }
 
+#btn_close{
+        padding-top: 1.25vw;
+        align-items: center;
+
+        background-color: transparent;
+        border: none;
+}
+
 #fechar_menu i{
         width: 1.5vw;
         height: 1.5vw;
@@ -106,8 +121,7 @@ header button:hover {
         margin: 0.25vh 1vw;
 
         border-radius: 2vw;
-
-        background-color: black;
+        align-items: center;
 }
 
 #menu_completo {
@@ -147,12 +161,12 @@ header button:hover {
 }
 
 #menu_completo button i{
-        width: 1.5vw;
-        height: 1.5vw;
+        width: 2vw;
+        height: 2vw;
 
-        margin: 0.25vh 1vw;
+        margin: 0.25vh 1vw 0;
+        padding-top: 2vw;
 
         border-radius: 2vw;
-
-        background-color: black;
+        /* background-color: black; */
 }

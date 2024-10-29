@@ -14,17 +14,32 @@
     <header id="header">
         <nav id="funcoes">
             <div id="menu_fechado">
-                <button id="abrir_menu" onclick="abrirMenu(1)"><i></i></button>
+                <button id="abrir_menu" onclick="abrirMenu(1)"><i class="fa-solid fa-arrow-right fa-2xl"></i></button>
                 <div id="menu">
-                    <button id="perfil_i"><i></i></button>
-                    <button id="post_i"><i></i></button>
+                    <button id="perfil_i">
+                         <i class="fa-solid fa-circle-info fa-2xl"></i>
+                    </button>
+                    <button id="post_i">
+                         <i class="fa-solid fa-paper-plane fa-2xl"></i>
+                    </button>
                 </div>
             </div>
             <div id="menu_aberto">
-                <button id="fechar_menu" onclick="abrirMenu(0)"><h1>fechar menu </h1> <i></i></button>
+                <div id="fechar_menu">
+                    <h1>fechar menu </h1>
+                    <button id="btn_close" onclick="abrirMenu(0)">
+                         <i id="ixmark" class="fa-solid fa-xmark fa-2xl"></i>
+                    </button>
+                </div>
                 <div id="menu_completo">
-                    <button id="perfil_i"><i></i> <h1>Mais</h1></button>
-                    <button id="post_ia"><i></i> <h1>Posts</h1></button>
+                    <button id="perfil_i">
+                         <i class="fa-solid fa-circle-info fa-2xl"></i>
+                         <h1>Mais</h1>
+                    </button>
+                    <button id="post_ia">
+                         <i class="fa-solid fa-paper-plane fa-2xl"></i>
+                         <h1>Posts</h1>
+                    </button>
                 </div>
             </div>
         </nav>
