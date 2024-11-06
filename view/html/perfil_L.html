@@ -8,20 +8,51 @@
     <link rel="stylesheet" href="../css/perfil/perfil.css">
     <script src="https://kit.fontawesome.com/7f2be37107.js" crossorigin="anonymous"></script>
     <script type="module" src="./../js/perfil.js"></script>
+    <link rel="stylesheet" href="./../css/footer_header/f_h.css">
+    <script type="module" src="./../../controller/header_i.js" defer></script>
 </head>
 
 <body>
-    <header>
-
+    <header id="header">
+        <nav id="funcoes">
+            <div id="menu_fechado">
+                <button id="abrir_menu" onclick="abrirMenu(1)"><i class="fa-solid fa-arrow-right fa-2xl"></i></button>
+                <div id="menu">
+                    <button id="perfil_i">
+                        <i class="fa-solid fa-person fa-2xl"></i>
+                    </button>
+                    <button id="post_i">
+                        <i class="fa-solid fa-paper-plane fa-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="menu_aberto">
+                <div id="fechar_menu">
+                    <h1>fechar menu </h1>
+                    <button id="btn_close" onclick="abrirMenu(0)">
+                        <i id="ixmark" class="fa-solid fa-xmark fa-2xl"></i>
+                    </button>
+                </div>
+                <div id="menu_completo">
+                    <button id="perfil_i">
+                        <i class="fa-solid fa-person fa-2xl"></i>
+                        <h1>Perfil</h1>
+                    </button>
+                    <button id="post_ia">
+                        <i class="fa-solid fa-paper-plane fa-2xl"></i>
+                        <h1>Posts</h1>
+                    </button>
+                </div>
+            </div>
+        </nav>
     </header>
-    
     <section id="miolo">
         <div><button id="btn_back"><i class="fa-solid fa-arrow-left"></i></button></div>
         <div>
-        
+
             <div><button id="btn_edit" onclick="mostrarATLZ()">Edit Profile</button></div>
-        <div>
-        <!-- <div><button id="btn_back"><i class="fa-solid fa-arrow-left"></i></button></div>
+            <div>
+                <!-- <div><button id="btn_back"><i class="fa-solid fa-arrow-left"></i></button></div>
         <div>
             <h1 id="Nome">Nome</h1>
         </div>
@@ -45,13 +76,13 @@
             <h3 id="seguindo">(999) seguindo</h3>
         </div>
         <div> -->
-            <!-- <h1 id="Posts">Posts</h1> </div>
+                <!-- <h1 id="Posts">Posts</h1> </div>
         <div>
             <h1 id="Medias">Medias</h1> </div>
         <div>
             <h1 id="Curtidos">Curtidos</h1>
         </div> -->
-        <!-- <div class="line"></div>
+                <!-- <div class="line"></div>
         <div class="icon_post"></div>
         <div>
             <h4 id="nm_post">Nome_exemplo</h4>
@@ -68,22 +99,79 @@
         <div><button id="btn_heart"><i class="fa-regular fa-heart"></i></button></div> -->
 
     </section>
-<section id="telaFDS">
-    <div id="container_bola">
-        <input id="fundo_atlz" type="text" placeholder="Plano de Fundo">
-        <input id="foto_perfil" type="text" placeholder="Foto de Perfil">
-        <input id="Nome_atlz" type="text" placeholder="Nome">
-        <input id="aroba_atlz" type="text" placeholder="@">
-        <div id="btn_fds">
-            <button class="btn_fd" onclick="esconderATLZ()">Cancelar</button>
-            <button class="btn_fd" onclick="esconderATLZ()">Salvar</button>
+    <section id="telaFDS">
+        <div id="container_bola">
+            <input id="fundo_atlz" type="text" placeholder="Plano de Fundo">
+            <input id="foto_perfil" type="text" placeholder="Foto de Perfil">
+            <input id="Nome_atlz" type="text" placeholder="Nome">
+            <input id="aroba_atlz" type="text" placeholder="@">
+            <div id="btn_fds">
+                <button class="btn_fd" onclick="esconderATLZ()">Cancelar</button>
+                <button class="btn_fd" onclick="esconderATLZ()">Salvar</button>
+            </div>
         </div>
-    </div>
 
-</section>
+    </section>
 
-    <footer>
-
+    <footer id="pezinho">
+        <div id="box_notificacao">
+            <button id="botao_ntf">
+                <div id="contato_ntf">
+                    <div id="img_ctt_ntf"></div>
+                    <div id="inf_ctt_ntf">
+                        <h4>nome do cidadao</h4>
+                        <h4>@arroba</h4>
+                        <h4>minutoes e horas</h4>
+                    </div>
+                    <div id="btn_ctt_ntf">
+                        <i class="fa-solid fa-eye-low-vision"></i>
+                        <i class="fa-solid fa-x"></i>
+                    </div>
+                </div>
+            </button>
+            <!-- <button id="ver_mais">
+            <h4>Ver Mais...</h4>
+        </button> -->
+        </div>
+        <nav id="chat">
+            <div class="boxs_chat" id="box_chat">
+                <div id="lista_ctt">
+                    <h1 id="pessoas_ctt">Posts</h1>
+                    <button id="botao_ctt" onclick="abrirChat(0)">
+                        <div id="contato_ctt">
+                            <div id="img_ctt"></div>
+                            <div id="inf_ctt">
+                                <h4>nome do cidadao</h4>
+                                <h4>@arroba</h4>
+                                <h4>min</h4>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="boxs_chat" id="box_chat_aberto">
+                <div id="lista_ctt_aberto">
+                    <h1 id="pessoas_ctt">Posts</h1>
+                    <button id="botao_ctt" onclick="abrirChat(1)">
+                        <div id="contato_ctt">
+                            <div id="img_ctt"></div>
+                            <div id="inf_ctt">
+                                <h4>nome do cidadao</h4>
+                                <h4>@arroba</h4>
+                                <h4>min</h4>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div id="chat_ctt_aberto">
+                    <div id="mensagens"></div>
+                    <div id="msg">
+                        <input id="botao_digitando" type="text" placeholder="Digite Aqui...">
+                        <button id="enviar_msg" onclick="conversar()"> Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </footer>
 </body>
 
