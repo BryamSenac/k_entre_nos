@@ -1,0 +1,136 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10vw;
+    background-color: #f4f7f6; /* Cor de fundo suave */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor da seção */
+}
+
+#logo_img {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_img h1 {
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 400; /* Fonte um pouco mais leve */
+    color: #333; /* Cor de fonte mais neutra */
+    letter-spacing: 0.05em; /* Espaçamento entre letras para elegância */
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 5vw;
+    /* Removendo a sombra */
+    box-shadow: none; /* Remover qualquer sombra */
+}
+
+
+h2 {
+    font-size: 2vw; /* Tamanho menor para o cabeçalho */
+    text-align: left;
+    margin-bottom: 1.5vh; /* Menos espaçamento abaixo do cabeçalho */
+    font-weight: 400;
+    color: #2c3e50; /* Cor mais sóbria e moderna */
+    padding-left: 2vw;
+}
+
+label {
+    font-size: 1vw; /* Tamanho menor da fonte */
+    color: #2c3e50;
+    margin: 1vh 0;
+    display: block;
+}
+
+input {
+    width: 22vw; /* Largura dos campos ajustada */
+    height: 4.5vh; /* Altura dos campos */
+    margin: 1vh 0; /* Espaçamento vertical */
+    padding-left: 1vw; /* Espaçamento interno */
+    font-size: 0.9vw;
+    border: 0.15vw solid #C4C4C4; /* Borda normal */
+    border-radius: 1vw; /* Bordas arredondadas */
+    background-color: #f9f9f9;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombras mais suaves */
+}
+
+input:focus {
+    outline: none;
+    border-color: #27C394; /* Cor da borda ao focar */
+    box-shadow: 0 0 6px rgba(39, 195, 148, 0.5), 0 2px 10px rgba(0, 0, 0, 0.15); /* Efeito ao focar */
+}
+
+button[type="submit"], button#voltar {
+    width: 23vw; 
+    height: 4vh; /* Altura do botão */
+    margin: 1vh auto; /* Centraliza os botões */
+    background-color: #27C394; /* Cor do botão */
+    color: #fff; /* Cor do texto */
+    border: none; /* Sem bordas */
+    border-radius: 1vw; /* Bordas arredondadas */
+    font-size: 1vw; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de pointer */
+    transition: background-color 0.3s, transform 0.3s; /* Transições */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombras mais suaves */
+}
+
+button[type="submit"]:hover {
+    background-color: #1aa379; /* Cor ao passar o mouse */
+    transform: translateY(-2px); /* Animação ao elevar o botão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombras ao elevar */
+}
+
+button#voltar {
+    background-color: #C4C4C4; /* Cor do botão voltar */
+    color: #333; /* Cor do texto */
+}
+
+button#voltar:hover {
+    background-color: #b0b0b0; /* Cor ao passar o mouse */
+    transform: translateY(-2px); /* Animação ao elevar o botão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombras ao elevar */
+}
+
+a {
+    color: #27C394; /* Cor dos links */
+    text-decoration: none; /* Sem sublinhado */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transições */
+}
+
+a:hover {
+    color: #39E1A1; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Efeito leve de zoom */
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+p {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: 0.9vw;
+    text-align: center;
+    color: #7f8c8d; /* Cor do texto do parágrafo */
+}
+
+/* Ajustes para os ícones */
+button i {
+    margin-right: 8px; /* Espaçamento dos ícones */
+}

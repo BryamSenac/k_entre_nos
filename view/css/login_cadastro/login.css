@@ -1,0 +1,8 @@
+@import url(./recheio_login.css);
+@import url(./login_troca.css);
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
