@@ -1,8 +1,4 @@
-let usuarios = [
-    { nome: 'guilherme', emailC: 'guilherme@gmail', senhaC: '6767', ano: '2000' },
-    { nome: 'fulano', emailC: 'fulano@gmail', senhaC: '4321', ano: '2000' },
-    { nome: 'tal', emailC: 'tal@gmail', senhaC: '1234', ano: '2000' }
-];
+import { dados } from "../../model/user.js";
 
 export function verificarIdade(event) {
     if (event) {
@@ -28,15 +24,13 @@ export function verificarIdade(event) {
     if (mes < 0 || (mes === 0 && hoje.getDate() < dataNascimento.getDate())) {
         idade--;
     }
-
     if (idade < 13) {
         alert("Você deve ter pelo menos 13 anos para se cadastrar.");
     } else {
         // Se a idade for válida, armazena os dados em um vetor de objetos
-        usuarios.push({ nome, emailC: email, senhaC: senha, ano: dataNascimento.getFullYear() });
-
+        dados.push({ email, senha});
         // Exibe o array atualizado no console
-        console.log(usuarios);
+        console.log(dados);
 
         // Limpa os campos após o envio
         document.getElementById('nome').value = '';
@@ -44,6 +38,6 @@ export function verificarIdade(event) {
         document.getElementById('senha').value = '';
         document.getElementById('data_nascimento').value = '';
 
-        alert("Cadastro realizado com sucesso!");
+        window.location.href = './../../view/html/chat.html';
     }
 }
