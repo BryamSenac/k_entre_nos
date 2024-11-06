@@ -1,3 +1,5 @@
+import { carregarMensagens } from "./header_i.js";
+
 let funcoes = document.getElementById('funcoes')
 
 export function abrirMenu(numerofuncoes) {
@@ -8,6 +10,7 @@ export function abrirMenu(numerofuncoes) {
 let chat = document.getElementById('chat')
 
 export function abrirChat(numerochat) {
+    carregarMensagens();
     console.log(numerochat)
     chat.style.right = '-' + numerochat + '00vw';
 }
