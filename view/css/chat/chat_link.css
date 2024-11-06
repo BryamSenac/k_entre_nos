@@ -1,6 +1,6 @@
 @import url(./chat.css);
-@import url(./footer_um.css);
-@import url(./header_um.css);
+@import url(./../footer_header/header.css);
+@import url(./../footer_header/footer.css);
 
 body{
     width: 100vw;
