@@ -52,22 +52,22 @@ export function criarNotis() {
      }
 }
 
-{/*
-<button id="botao_ntf">
-    <div id="contato_ntf">
-        <div id="img_ctt_ntf"></div>
-        <div id="inf_ctt_ntf">
-            <h4>nome do cidadao</h4>
-            <h4>@arroba</h4>
-            <h4>minutoes e horas</h4>
-        </div>
-        <div id="btn_ctt_ntf">
-            <i class="fa-solid fa-eye-low-vision"></i>
-            <i class="fa-solid fa-x"></i>
-        </div>
-    </div>
-</button>
-<button id="ver_mais">
-    <h4>Ver Mais...</h4>
-</button>
-</div> */}
+// {
+// <button id="botao_ntf">
+//     <div id="contato_ntf">
+//         <div id="img_ctt_ntf"></div>
+//         <div id="inf_ctt_ntf">
+//             <h4>nome do cidadao</h4>
+//             <h4>@arroba</h4>
+//             <h4>minutoes e horas</h4>
+//         </div>
+//         <div id="btn_ctt_ntf">
+//             <i class="fa-solid fa-eye-low-vision"></i>
+//             <i class="fa-solid fa-x"></i>
+//         </div>
+//     </div>
+// </button>
+// <button id="ver_mais">
+//     <h4>Ver Mais...</h4>
+// </button>
+// </div> }
