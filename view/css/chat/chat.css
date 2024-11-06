@@ -1,10 +1,7 @@
 section{
     width: 67vw;
-    height: 100vh;
 
-    position: absolute;
-    top: 0;
-    left: 3vw;
+    margin-left: 3vw;
 
     display: flex;
     flex-direction: column;
