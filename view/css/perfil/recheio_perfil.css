@@ -1,0 +1,182 @@
+section{
+    width: 67vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 3%;
+
+    
+    
+}
+#btn_back{
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    border: none;
+    background-color: white;
+}
+
+#Nome{
+    position: absolute;
+    left: 8%;
+    top: 0.3%;
+  
+}
+
+
+#container {
+    height: 35vh;
+    width: 67vw;
+    background-color: rgb(168, 164, 164);
+    position: absolute;
+    top: 8%;
+    z-index: 2;
+
+}
+
+#perfil-icone{
+    height: 8vw;
+    width: 8vw;
+    background-color: rgb(47, 255, 186);
+    border-radius: 50%;
+    
+    border: solid 0.3vw white;
+    z-index: 3;
+    position: absolute;
+    top: 29%;
+    left: 2%;
+
+}
+
+
+#btn_edit{
+    height: 5vh;
+    width: 5vw;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    border-radius: 25vw;
+    
+   
+}
+
+
+
+
+#Nome_exemplo{
+    position: absolute;
+    top:45% ;
+    left: 3%;
+}
+
+#aroba{
+    position: absolute;
+    top: 47%;
+    left: 3%;
+}
+
+#bio{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+}
+
+#seguidores{
+    position: absolute;
+    top: 60%;
+    left: 3%;
+}
+#seguindo{
+    position: absolute;
+    top: 60%;
+    left: 16%;
+}
+
+ #Posts{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+
+}
+
+#Medias{
+    position: absolute;
+    top: 70%;
+    left: 47%;
+}
+
+#Curtidos{
+    position: absolute;
+    top: 70%;
+    left: 77%;
+}
+
+.line{
+    width: 67vw;
+    height: 0.3vh;
+    background-color: black;
+position: absolute;
+top: 75%;
+}
+
+.icon_post{
+    height: 5vh;
+    width: 2.5vw;
+    background-color: gray;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    border-radius: 50%;
+
+}
+
+#nm_post{
+    position: absolute;
+    top: 78%;
+    left: 9%;
+}
+
+#aroba_post{
+    position: absolute;
+    top: 78%;
+    left: 17.5%;
+}
+
+#fds{
+    position: absolute;
+    top: 80%;
+    left: 95%;
+    border: none;
+    background-color: white;
+}
+
+#comentario_feminista{
+    position: absolute;
+    top: 80%;
+    left: 9%;
+}
+
+#btn_comentario{
+position: absolute;
+top: 85%;
+left: 10%;
+border: none;
+    background-color: white;
+}
+
+#btn_repaet{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    border: none;
+    background-color: white;
+}
+
+#btn_heart{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    border: none;
+    background-color: white;
+} 
