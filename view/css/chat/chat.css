@@ -1,0 +1,276 @@
+section{
+    width: 67vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 3vw;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+#post_make{
+    width: 61vw;
+    height: 15vh;
+
+    border-radius: 2vw;
+
+    margin: 5vh 3vw;
+
+    background-color: rgb(225, 235, 237);
+}
+
+#post_mci{
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
+
+    background-color: black;
+}
+
+#post_mc{
+    display: flex;
+
+    align-items: center;
+    margin: 0.5vw;
+}
+
+
+#post_mc h1{
+    margin-left: 1vw;
+}
+
+#post_arrouba{
+    color: rgb(101, 119, 134);
+}
+
+#digite{
+    width: 45vw;
+    height: 3vh;
+
+    border-radius: 1vw;
+
+    margin: 1vh 2vw;
+
+    background-color:  rgb(225, 235, 237);
+    padding-left: 1vw;
+}
+
+#post_enviar{
+    width: 5vw;
+    height: 4vh;
+
+    border-radius: 1vw;
+
+    margin: 1vh 2vw;
+
+    background-color: rgb(47, 255, 193);
+    color: black;
+}
+
+/*Comeca o CSS dos posts de outros usuarios*/
+
+#post_view{
+    width: 61vw;
+    height: 15vh;
+
+    /* border-radius: 2vw; */
+
+    border-top: solid 0.2vw rgb(101, 119, 134);
+
+    margin: 5vh 3vw;
+
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#post_vc{
+    display: flex;
+    height: 5vh;
+
+    margin: 0.75vh 0.5vw -1vh;
+
+    align-items: center;
+}
+
+#post_vci{
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
+
+    background-color: rgb(101, 119, 134);
+}
+
+#post_vc h1{
+    margin-left: 1vw;
+}
+
+#post{
+    width: 50vw;
+    height: 5vh;
+    margin: 0vh 2vw 0.5vh;
+}
+
+#post_Varrouba{
+    color: rgb(101, 119, 134)
+}
+
+#post_Vmin{
+    color: rgb(101, 119, 134)
+}
+
+#post_botoes{
+    height: 4vh;
+    display: flex;
+}
+
+#post_botoes button{
+    width:12vh;
+    height: 3vh;
+    margin: 0vh 5vw 0vh;
+
+    display: flex;
+    align-items: center;
+
+    border: none;
+
+    border-radius: 2vw;
+}
+
+#comentar_i{
+    width: 2vh;
+    height: 2vh;
+
+    border-radius: 2vw;
+    margin-right: 0.2vw;
+
+    background-color: black;
+}
+
+#curtir_i{
+    width: 2vh;
+    height: 2vh;
+
+    border-radius: 2vw;
+    margin-right: 0.2vw;
+
+    background-color: black;
+}
+
+/*Comeca o CSS dos posts de outros usuarios 2*/
+
+#post_viewd{
+    width: 61vw;
+    height: 15vh;
+
+    /* border-radius: 2vw; */
+
+    border-top: solid 0.2vw black;
+
+    margin: 5vh 3vw;
+
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#post_vcd{
+    display: flex;
+    height: 5vh;
+
+    margin: 0.75vh 0.5vw -1vh;
+
+    align-items: center;
+}
+
+#post_vcid{
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
+
+    background-color: rgb(101, 119, 134);
+}
+
+#post_vcd h1{
+    margin-left: 1vw;
+}
+
+#postd{
+    width: 50vw;
+    height: 5vh;
+    margin: 0vh 2vw 0.5vh;
+}
+
+#post_Varroubad{
+    color: rgb(101, 119, 134)
+}
+
+#post_Vmind{
+    color: rgb(101, 119, 134)
+}
+
+#post_botoesd{
+    height: 4vh;
+    display: flex;
+}
+
+#post_botoesd button{
+    width:12vh;
+    height: 3vh;
+    margin: 0vh 5vw 0vh;
+
+    display: flex;
+    align-items: center;
+
+    border: none;
+
+    border-radius: 2vw;
+}
+
+#comentar_id{
+    width: 2vh;
+    height: 2vh;
+
+    border-radius: 2vw;
+    margin-right: 0.2vw;
+
+    background-color: black;
+}
+
+#republica_id{
+    width: 2vh;
+    height: 2vh;
+
+    border-radius: 2vw;
+    margin-right: 0.2vw;
+
+    background-color: black;
+}
+
+#curtir_id{
+    width: 2vh;
+    height: 2vh;
+
+    border-radius: 2vw;
+    margin-right: 0.2vw;
+
+    background-color: black;
+}
+
+/* hover nos btns */
+
+button:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
