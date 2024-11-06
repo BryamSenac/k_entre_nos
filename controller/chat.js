@@ -1,4 +1,4 @@
-import { criarPost } from "./../view/index.js"
+import { criarPost } from "./../view/js/chat.js"
 
 document.addEventListener("DOMContentLoaded", function (){
     criarPost()

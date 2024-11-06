@@ -1,4 +1,4 @@
-import { puxarLogin } from "./login/login_google.js";
+import { puxarLogin } from "./login_google.js";
 
 window.puxarLogin = puxarLogin
 

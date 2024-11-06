@@ -1,7 +1,7 @@
 @import url(./footer_L.css);
 @import url(./header_L.css);
 @import url(./recheio_perfil.css);
-@import url(edit.css);
+@import url(./edit.css);
 
 body{
     overflow: hidden;
