@@ -12,7 +12,7 @@ let chat = document.getElementById('chat')
 export function abrirChat(numerochat) {
     carregarMensagens();
     console.log(numerochat)
-    chat.style.right = numerochat + '00vw';
+    chat.style.bottom = numerochat + 'vh';
 }
 
 // export function abrirMenu(numerofuncoes) {

@@ -1,11 +1,11 @@
 #funcoes {
-        width: 200vw;
+        width: 3vw;
         height: 100vh;
 
         display: flex;
 
         position: absolute;
-        left: -100vw;
+        left: 0vw;
         z-index: 1;
 }
 
