@@ -200,8 +200,13 @@ footer nav{
 }
 
 #mensagens{
+    /* quadro onde as msg vai dentro */
+
     width: 24vw;
     height: 30vh;
+
+    overflow-y: scroll;
+    scrollbar-width: none;
 
     border-radius: 1vw;
 
