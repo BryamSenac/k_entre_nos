@@ -1,31 +1,33 @@
 #banners {
-    width: 400vw;
-    height: 35vh;
+    width: 300vw;
+    height: 15vh;
 
     position: absolute;
-    left: -000vw;
-    top: 89vh;
+    left: 0vw;
+    bottom: 4.5vh;
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     transition: all 0.5s ease-in-out;
 
+    align-items: center;
 }
 
 .banner {
-    width: 100vw;
-    height: 20vh;
-    margin: 0 5vh;
+    width: 50vw;
+    height: 15vh;
 
+    margin: 0 39vw 0 11vw;
 }
 
 #btns_banners {
-    width: 7vw;
+    width: 20vw;
     height: 5vh;
 
     position: absolute;
-    left: 45vw;
-    top: 95vh;
+    left: 25.5vw;
+    bottom: 5vh;
 
     display: flex;
     flex-direction: row;
@@ -36,32 +38,38 @@
 }
 
 .btn_banner {
-    width: 1vw;
-    height: 2vh;
+    width: 5vh;
+    height: 5vh;
+
+    margin: 0 1vw;
+
     border-radius: 50%;
+
     background-color: white;
     border: solid 0.1vw black;
 }
 
 .btn_banner:hover {
-    width: 2.3vw;
-    height: 3.3vh;
+    transform: scale(1.01);
     cursor: pointer;
     transition: all 0, 5s ease-in-out;
 
 }
 
-#banner_1{
-    background-color: red;
-}
-#banner_2{
-    background-color: blue;
-}
-#banner_3{
-    background-color: green;
+#banner_1 img{
+    width: 50vw;
+    height: 15vh;
+    /* background-color: yellow; */
 }
 
-#castler{
-    width: 60vw;
-    height: 20vh;
+#banner_2 img{
+    width: 50vw;
+    height: 15vh;
+/* background-color: brown; */
+}
+
+#banner_3 img{
+    width: 50vw;
+    height: 15vh;
+/* background-color: blue; */
 }

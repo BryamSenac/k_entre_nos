@@ -3,8 +3,8 @@ export function criaPerfil() {
     {
         nome: 'Fulano',
         aroba: 'praticio_star',
-        img: '', // URL de exemplo
-        fotoP: '', // URL de exemplo
+        img: 'https://mercadohoje.uai.com.br/wp-content/uploads/2022/02/venda-vasco-1280x720.jpg', // URL de exemplo
+        fotoP: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThPnIRTZ38Iy2ARxmtlW5nb73KKounthk4yw&s', // URL de exemplo
         seguidor: '998',
         seguindo: '200',
     };
