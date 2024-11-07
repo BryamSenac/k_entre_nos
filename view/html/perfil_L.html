@@ -16,7 +16,9 @@
     <header id="header">
         <nav id="funcoes">
             <div id="menu_fechado">
-                <button id="abrir_menu" onclick="abrirMenu(1)"><i class="fa-solid fa-arrow-right fa-2xl"></i></button>
+                <button id="abrir_menu" onclick="abrirMenu(-1)">
+                    <i class="fa-solid fa-arrow-right fa-2xl"></i>
+                </button>
                 <div id="menu">
                     <button id="perfil_i">
                         <i class="fa-solid fa-person fa-2xl"></i>
@@ -59,21 +61,21 @@
                 <div class="banner" id="banner_1"><img src="" id="castler"></div>
                 <div class="banner" id="banner_2"><img src="" id="block"></div>
                 <div class="banner" id="banner_3"><img src="" id="south"></div>
-                </nav>
-                
-                <nav id="btns_banners">
+            </nav>
+
+            <nav id="btns_banners">
                 <button class="btn_banner" onclick="trocarBanner(0)"></button>
                 <button class="btn_banner" onclick="trocarBanner(1)"></button>
                 <button class="btn_banner" onclick="trocarBanner(2)"></button>
-                </nav>
-                
+            </nav>
+
             <div>
                 <div>
-                </section>
-                <section id="telaFDS">
-                    <div id="container_bola">
-                        <input id="fundo_atlz" type="text" placeholder="Plano de Fundo">
-                        <input id="foto_perfil" type="text" placeholder="Foto de Perfil">
+    </section>
+    <section id="telaFDS">
+        <div id="container_bola">
+            <input id="fundo_atlz" type="text" placeholder="Plano de Fundo">
+            <input id="foto_perfil" type="text" placeholder="Foto de Perfil">
             <input id="Nome_atlz" type="text" placeholder="Nome">
             <input id="aroba_atlz" type="text" placeholder="@">
             <div id="btn_fds">
@@ -81,9 +83,9 @@
                 <button class="btn_fd" onclick="esconderATLZ()">Salvar</button>
             </div>
         </div>
-        
+
     </section>
-    
+
     <footer id="pezinho">
         <div id="box_notificacao">
             <button id="botao_ntf">
@@ -108,7 +110,7 @@
             <div class="boxs_chat" id="box_chat">
                 <div id="lista_ctt">
                     <h1 id="pessoas_ctt">Posts</h1>
-                    <button id="botao_ctt" onclick="abrirChat(0)">
+                    <button id="botao_ctt" onclick="abrirChat(130)">
                         <div id="contato_ctt">
                             <div id="img_ctt"></div>
                             <div id="inf_ctt">
@@ -123,7 +125,7 @@
             <div class="boxs_chat" id="box_chat_aberto">
                 <div id="lista_ctt_aberto">
                     <h1 id="pessoas_ctt">Posts</h1>
-                    <button id="botao_ctt" onclick="abrirChat(1)">
+                    <button id="botao_ctt" onclick="abrirChat(0)">
                         <div id="contato_ctt">
                             <div id="img_ctt"></div>
                             <div id="inf_ctt">
