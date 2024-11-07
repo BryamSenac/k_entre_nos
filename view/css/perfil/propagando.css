@@ -14,9 +14,8 @@
 
 .banner {
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
     margin: 0 5vh;
-    background-color: red;
 
 }
 
@@ -60,4 +59,9 @@
 }
 #banner_3{
     background-color: green;
+}
+
+#castler{
+    width: 60vw;
+    height: 20vh;
 }
