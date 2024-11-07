@@ -1,0 +1,63 @@
+#banners {
+    width: 400vw;
+    height: 35vh;
+
+    position: absolute;
+    left: -000vw;
+    top: 89vh;
+
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.banner {
+    width: 100vw;
+    height: 10vh;
+    margin: 0 5vh;
+    background-color: red;
+
+}
+
+#btns_banners {
+    width: 7vw;
+    height: 5vh;
+
+    position: absolute;
+    left: 45vw;
+    top: 95vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.btn_banner {
+    width: 1vw;
+    height: 2vh;
+    border-radius: 50%;
+    background-color: white;
+    border: solid 0.1vw black;
+}
+
+.btn_banner:hover {
+    width: 2.3vw;
+    height: 3.3vh;
+    cursor: pointer;
+    transition: all 0, 5s ease-in-out;
+
+}
+
+#banner_1{
+    background-color: red;
+}
+#banner_2{
+    background-color: blue;
+}
+#banner_3{
+    background-color: green;
+}
