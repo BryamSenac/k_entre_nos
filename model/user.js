@@ -1,5 +1,5 @@
 export let dados = [
-    { email: 'guilherme@gmail', senha: '6767' },
+    { email: 'bryan@gmail', senha: '6767' },
     { email: 'lucas@gmail', senha: '4321' },
     { email: 'otario@gmail', senha: '0001' },
     { email: 'lustraMP@gmail', senha: '1000' },
