@@ -177,3 +177,8 @@ button:hover {
     transform: scale(1.01);
     cursor: pointer;
 }
+
+#foto_P_post{
+    width: 10vw ;
+    height: 8vh ;
+}
