@@ -18,6 +18,10 @@ export function criarPost() {
 
         let postImgV = document.createElement('img')
         postImgV.id = 'post_img_v'
+        postImgV.src = post[i].fotoP
+        postImgV.style.width = '5vh'
+        postImgV.style.height = '5vh'
+        postImgV.style.borderRadius = '5vw'
 
         let postNome = document.createElement('h1')
         postNome.id = 'post_Vnome'
@@ -25,7 +29,7 @@ export function criarPost() {
 
         let postArrouba = document.createElement('h1')
         postArrouba.id = 'post_Varrouba'
-        postArrouba.textContent = post[i].aroba
+        postArrouba.textContent = '@' + post[i].aroba
 
         let postTempo = document.createElement('h1')
         postTempo.id = 'post_Vmin'
@@ -33,6 +37,10 @@ export function criarPost() {
 
         let postV = document.createElement('div')
         postV.id = 'post'
+
+        let mensagem = document.createElement('h2')
+        mensagem.id = 'sms'
+        mensagem.textContent = post[i].msg
 
         let postBotoes = document.createElement('div')
         postBotoes.id = 'post_botoes'
@@ -62,6 +70,8 @@ export function criarPost() {
         postBotoes.appendChild(curtir);
 
         postVci.appendChild(postImgV);
+
+        postV.appendChild(mensagem)
 
         postVc.appendChild(postVci);
         postVc.appendChild(postNome);

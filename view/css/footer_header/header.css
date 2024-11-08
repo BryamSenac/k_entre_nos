@@ -4,7 +4,7 @@
 
         display: flex;
 
-        position: absolute;
+        position: fixed;
         left: 0vw;
         z-index: 10;
 }
