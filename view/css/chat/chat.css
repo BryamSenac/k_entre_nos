@@ -90,7 +90,7 @@ section {
     background-color: rgb(255, 255, 255);
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: space-around;
 }
 
