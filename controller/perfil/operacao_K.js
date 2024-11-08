@@ -1,10 +1,10 @@
 export function criaPerfil() {
     let perfil =
     {
-        nome: 'Fulano',
+        nome: 'Patricio de Nazar Star',
         aroba: 'praticio_star',
         img: 'https://mercadohoje.uai.com.br/wp-content/uploads/2022/02/venda-vasco-1280x720.jpg', // URL de exemplo
-        fotoP: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThPnIRTZ38Iy2ARxmtlW5nb73KKounthk4yw&s', // URL de exemplo
+        fotoP: 'https://m.extra.globo.com/incoming/25567959-0fa-04b/w533h800/maneskin-vocalista-estilo-meme-3.jpg', // URL de exemplo
         seguidor: '998',
         seguindo: '200',
     };
