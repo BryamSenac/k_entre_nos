@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 section{
     width: 67vw;
     height: 100vh;

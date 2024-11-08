@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.014);
+    background-color: rgba(0, 0, 0, 0.329);
     
     position: fixed;
     top: 0;
@@ -12,7 +12,7 @@
     justify-content: start;
     align-items: center;
 
-    z-index: 10;
+    z-index: 300;
 
     transition: all 0.5s ease-in-out;
 }
@@ -39,8 +39,8 @@
     margin: 1vh 1vw;
     padding-left: 1vw;
     border-radius: 1vw;
-    border: 1px solid #ccc; /* Add a subtle border for better visibility */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
+    border: 1px solid #cccccc; /* Add a subtle border for better visibility */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.096); /* Optional: add a shadow for depth */
 }
 
 #btn_fds {
@@ -58,7 +58,7 @@
     border-radius: 1vw;
     border: none; /* Remove default button border */
     cursor: pointer; /* Change cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: ease-in-out 0.3s ease; /* Smooth transition */
 }
 
 .btn_fd:hover {
