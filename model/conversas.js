@@ -1,6 +1,6 @@
 export let conversas = [
     {
-        user: 'nome',
-        conversa: 'Oi',
+        user: 'bryan Mussolini',
+        conversa: 'Oi', 
     },
 ];

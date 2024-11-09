@@ -2,7 +2,7 @@ export let post = [
     {
         nome: 'Bryan Mussolini',
         aroba: 'ainholini',
-        fotoP: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFdPq2T2g20oo4EePsxh1Siabxqn-Tujjpw&s', // URL de exemplo
+        fotoP: 'https://cinebuzz.com.br/media/_versions/brian_oconner_personagem_de_paul_walker_retorna_em_velozes__furiosos_10_widelg.jpg', // URL de exemplo
         msg: 'algue me enssina iscrev',
         tempo: '30min',
         comentario: '2',
@@ -20,7 +20,7 @@ export let post = [
     {
        nome: 'Bryan Mussolini',
        aroba: 'ainholini',
-       fotoP: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFdPq2T2g20oo4EePsxh1Siabxqn-Tujjpw&s', // URL de exemplo
+       fotoP: 'https://cinebuzz.com.br/media/_versions/brian_oconner_personagem_de_paul_walker_retorna_em_velozes__furiosos_10_widelg.jpg', // URL de exemplo
        msg: 'poqrue dues cirou o php?',
        tempo: '4h',
        comentario: '7',
@@ -38,7 +38,7 @@ export let post = [
     {
         nome: 'Otravio Bittrencourt',
         aroba: 'luciano',
-        fotoP: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCFdPq2T2g20oo4EePsxh1Siabxqn-Tujjpw&s', // URL de exemplo
+        fotoP: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxyssW4YNTiy4dUkNC5WE4z51qR0Ba_C2Ow&s', // URL de exemplo
         msg: 'Qual a melhor receita de presunto com melao',
         tempo: '222h',
         comentario: '297',

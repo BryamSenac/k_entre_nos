@@ -57,14 +57,23 @@ footer nav{
     height: 2vw;
 
     border-radius: 50%;
+/* 
+    background-color: black; */
+}
 
-    background-color: black;
+#img_ctt_ntf img{
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
 }
 
 #inf_ctt_ntf {
     width: 20vw;
     display: flex;
     justify-content: space-between;
+
+    margin-left: 1vw;
 }
 
 #btn_ctt_ntf {
@@ -165,14 +174,22 @@ footer nav{
     height: 2vw;
 
     border-radius: 50%;
+/* 
+    background-color: black; */
+}
 
-    background-color: black;
+#img_ctt img{
+    width: 2vw;
+    height: 2vw;
+
+    border-radius: 50%;
 }
 
 #inf_ctt {
     width: 20vw;
     display: flex;
     justify-content: space-between;
+    margin-left: 1vw;
 }
 
 #lista_ctt_aberto{
@@ -194,7 +211,7 @@ footer nav{
     border-radius: 1vw;
 
     margin: 1.5vh 1vw 1.5vh;
-    padding-top: 2vh;
+    padding-top: 1.5vh;
 
     background-color: rgb(101, 119, 134);
 }
@@ -202,8 +219,8 @@ footer nav{
 #mensagens{
     /* quadro onde as msg vai dentro */
 
-    width: 24vw;
-    height: 30vh;
+    width: 22.5vw;
+    height: 29vh;
 
     overflow-y: scroll;
     scrollbar-width: none;
@@ -211,6 +228,7 @@ footer nav{
     border-radius: 1vw;
 
     margin: 1vh 1vw 0.5vh;
+    padding: 0.5vh 0.5vw 0;
 
     border: solid 0.2vw black;
 
@@ -245,4 +263,8 @@ footer nav{
 
     background-color: rgb(47, 255, 193);
     color: black;
+}
+
+.apagadinho{
+    color: rgb(101, 119, 134);
 }
