@@ -56,7 +56,7 @@ header button:hover {
         background-color: rgb(245, 248, 250);
 }
 
-#menu button{
+#menu button {
         width: 2vw;
         height: 2vw;
 
@@ -69,15 +69,14 @@ header button:hover {
         /* background-color: black; */
 }
 
-#menu button i{
-        margin-left: -0.1vw;
+#menu button i {
+        font-size: 1.5vw;
 }
 
-#menu button:hover{
+#menu button:hover {
         cursor: pointer;
         transform: scaleX(1.1);
 }
-
 
 /* Comeca outro Menu */
 
@@ -107,7 +106,7 @@ header button:hover {
 
 }
 
-#btn_close{
+#btn_close {
         padding-top: 1.25vw;
         align-items: center;
 
@@ -115,7 +114,7 @@ header button:hover {
         border: none;
 }
 
-#fechar_menu i{
+#fechar_menu i {
         width: 1.5vw;
         height: 1.5vw;
 
@@ -142,7 +141,7 @@ header button:hover {
         background-color: rgb(245, 248, 250);
 }
 
-#menu_completo button{
+#menu_completo button {
         width: 18vw;
         height: 2vw;
 
@@ -156,12 +155,12 @@ header button:hover {
         background-color: white;
 }
 
-#menu_completo button:hover{
+#menu_completo button:hover {
         cursor: pointer;
         transform: scaleX(1.1);
 }
 
-#menu_completo button i{
+#menu_completo button i {
         width: 2vw;
         height: 2vw;
 

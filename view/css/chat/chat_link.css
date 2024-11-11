@@ -1,10 +1,13 @@
 @import url(./chat.css);
 @import url(./../footer_header/header.css);
 @import url(./../footer_header/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-body{
+
+body {
     width: 100vw;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 
     margin: 0;
 }
